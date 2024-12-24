@@ -1,0 +1,16 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+
+}
