@@ -23,7 +23,29 @@
     padding: 15px;
 }
 
-img {
+.images-img {
     width: 200px;
     height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 25px;
+    margin-top: 20px;
+    align-items: center;
+
+}
+
+.header-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    padding-right: 25px;
+
 }
