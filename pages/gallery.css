@@ -1,5 +1,6 @@
 * {
    /* outline: 2px solid red; */
+   font-family: 'Times New Roman', Times, serif;
 }
 
 .header-text {
@@ -21,6 +22,12 @@
     gap: 20px;
     flex-shrink: 0;
     padding: 15px;
+}
+
+.images {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
 
 .images-img {
@@ -46,6 +53,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
-    padding-right: 25px;
+    padding-right: 100px;
 
 }

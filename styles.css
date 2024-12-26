@@ -1,5 +1,6 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+   /* outline: 2px solid red; */
 }
 
 a {
@@ -13,14 +14,12 @@ a {
     padding-left: 25px;
     margin-top: 20px;
     align-items: center;
-    background-image: url(../purestream/images/plant-9.png);
-
 }
 
 .header-buttons {
     display: flex;
     flex-wrap: wrap;
     gap: 35px;
-    padding-right: 25px;
+    padding-right: 100px;
 
 }
