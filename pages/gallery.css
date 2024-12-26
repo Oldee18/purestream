@@ -1,0 +1,29 @@
+* {
+   /* outline: 2px solid red; */
+}
+
+.header-text {
+    
+    align-self: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.csizmadia {
+    background-image: url(../images/plant-9.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    flex-shrink: 0;
+    padding: 15px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
