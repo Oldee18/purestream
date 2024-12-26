@@ -10,9 +10,16 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-left: 25px;
-    margin-top: 20px;
+    margin: -10px;
     align-items: center;
+    background-image: url(../images/header.png);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.header-logo {
+    padding-top: 40px;
 }
 
 .header-buttons {
@@ -20,5 +27,7 @@ a {
     flex-wrap: wrap;
     gap: 35px;
     padding-right: 100px;
-
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
 }
