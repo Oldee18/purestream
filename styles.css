@@ -17,13 +17,13 @@ a:hover {
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    flex: auto;
     justify-content: space-between;
     align-items: center;
     width: 100vw;
-    height: 130px;
-    margin-top: -8px;
-    margin-left: -8px;
+    height: 20vh;
+    margin-top: -2vh;
+    margin-left: -0.5vw;
     background-image: url(../purestream/images/header.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -41,13 +41,13 @@ a:hover {
 
 .header-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-shrink: 1;
     justify-content: center;
     align-items: center;
     gap: 35px;
     margin-right: 250px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size:x-large;
 }
 
 
@@ -56,21 +56,21 @@ a:hover {
 
 .footer {
     display: flex;
-    flex-wrap: wrap;
+    flex: auto;
     position: static;
     bottom: 0;
     left: 0;
     width: 100vw;
-    margin-top: 25px;
-    margin-bottom: -8px;
-    margin-left: -8px;
+    margin-top: 5vh;
+    margin-bottom: -2vh;
+    margin-left: -0.5vw;
     justify-content: space-around;
     align-items: center;
     background-image: url(../purestream/images/footer.png);
     background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 130px;
+    height: 20vh;
     border-top: groove;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -78,15 +78,14 @@ a:hover {
 }
 
 .contact {
-    margin-left: -60px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2vh;
     flex-shrink: 1;    
 }
 
 .footer-logo {
-    width: 125px;
+    width: 150px;
     height: auto;
-    margin-right: 100px;
+    margin-right: 15vw;
 }

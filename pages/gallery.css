@@ -3,42 +3,6 @@
    font-family: 'Times New Roman', Times, serif;
 }
 
-.csizmadia-text {
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-size: 40px;
-    margin-top: 25vh;
-    }
-
-.csizmadia {
-    display: flex;
-    flex-wrap: wrap;
-    border-style:groove;
-    border-radius: 40px;
-    justify-content: space-between;
-    gap: 50px;
-    flex-shrink: 0;
-    padding: 55px;
-    margin-right: 20px;
-    margin-top: 25px;
-}
-
-.images {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 600px;
-    margin-top: -35vh;
-    padding: 15px;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
-}
-
-.images-img {
-    width: 200px;
-    height: auto;
-}
-
 a {
     text-decoration: none;
 }
@@ -48,19 +12,66 @@ a:hover {
 }
 
 
+                    /* CONTENT */
+
+                    /* 1st CONTENT */
+
+
+.csizmadia-text {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0vh;
+    }
+
+.csizmadia {
+    display: flex;
+    flex-wrap: wrap;
+    border-style:groove;
+    border-radius: 40px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    flex-shrink: 0;
+    padding: 55px;
+    margin-right: 20px;
+    margin-top: 25px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 2vw;
+    padding: 15px;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-img {
+    width: 200px;
+    height: auto;
+
+}
+
+
+                        /* 2nd CONTENT */
+
+
+
                         /* HEADER */
 
 
 
 .header {
     display: flex;
-    flex-wrap: wrap;
+    flex: auto;
     justify-content: space-between;
     align-items: center;
     width: 99vw;
-    height: 130px;
-    margin-top: -8px;
-    margin-left: -8px;
+    height: 20vh;
+    margin-top: -2vh;
+    margin-left: -1vw;
     background-image: url(../images/header.png);
     background-position: top;
     background-repeat: no-repeat;
@@ -78,13 +89,13 @@ a:hover {
 
 .header-buttons {
     display: flex;
-    flex-wrap: wrap;
+    flex-shrink: 1;
     justify-content: center;
     align-items: center;
     gap: 35px;
     margin-right: 250px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: x-large;
 }
 
 
@@ -93,21 +104,21 @@ a:hover {
 
 .footer {
     display: flex;
-    flex-wrap: wrap;
+    flex: auto;
     position: static;
     bottom: 0;
     left: 0;
     width: 99vw;
-    margin-top: 25px;
-    margin-bottom: -8px;
-    margin-left: -8px;
+    margin-top: 5vh;
+    margin-bottom: -2vh;
+    margin-left: -1vw;
     justify-content: space-around;
     align-items: center;
     background-image: url(../images/footer.png);
     background-size: 100%;
     background-position: bottom;
     background-repeat: no-repeat;
-    height: 130px;
+    height: 20vh;
     border-top: groove;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
@@ -115,15 +126,14 @@ a:hover {
 }
 
 .contact {
-    margin-left: -60px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 2vh;
     flex-shrink: 1;    
 }
 
 .footer-logo {
-    width: 125px;
+    width: 150px;
     height: auto;
-    margin-right: 100px;
+    margin-right: 15vw;
 }
