@@ -51,6 +51,66 @@ a:hover {
 }
 
 
+                                        /* CONTENT */
+
+.landig-container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-evenly;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10vh 0vw 10vh 0vw;
+    padding-top: 5vh;
+    border-color: lightgreen;
+    border-style: groove;
+    border-radius: 50px;
+    
+}
+
+.container.first {
+    align-self: flex-start;
+    margin-right: 25vw;
+}
+
+.container.second {
+    align-self: flex-end;
+    margin-left: 25vw;
+}
+
+.container.third {
+    align-self: flex-start;
+    margin-right: 25vw;
+}
+
+.content-header {
+    font-weight: bold;
+    font-size: larger;
+    margin-bottom: 5vh;
+}
+
+.content-text {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    line-height: 4vh;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0vh 5vw 10vh 5vw;
+    margin: 0vh 0vw 0vh 0vw;
+}
+
+.content-image {
+    border-radius: 50px;
+}
+
 
                                         /*FOOTER*/
 
