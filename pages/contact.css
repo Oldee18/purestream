@@ -14,12 +14,17 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: -8px;
     align-items: center;
+    margin: -10px;
     background-image: url(../images/header.png);
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100%;
+    border-bottom: groove;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-color: lightgreen;
+
 }
 
 .header-logo {
