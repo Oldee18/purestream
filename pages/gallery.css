@@ -58,18 +58,20 @@ a:hover {
                     /* 1st CONTENT */
 
 
-.csizmadia-text {
+.csizmadia-header {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 40px;
-    margin-top: 0vh;
+    align-self: center;
     }
 
 .csizmadia {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    flex: auto;
     border-style:groove;
     border-radius: 40px;
+    border-color: lightgreen;
     justify-content: space-between;
     align-items: center;
     gap: 50px;
@@ -80,14 +82,23 @@ a:hover {
     margin-top: 25px;
 }
 
+.csizmadia-text {
+    display: flex;
+    flex: auto;}
+.text {
+    padding-top: 8vh;
+    line-height: 4vh;
+}
+
 .images {
     display: grid;
     grid-template-columns: auto auto auto;
     column-gap: 2vw;
-    padding: 15px;
+    padding: 25px;
+    padding-bottom: 55px;
     gap: 20px;
     align-items: center;
-    justify-content: center;
+    align-self: flex-end;
 }
 
 .images-img {
